@@ -1,0 +1,76 @@
+/*! 
+ * Template Name: Orbit - Bootstrap 4 Resume/CV Template for Developers
+ * Version: 2.0
+ * Author: Xiaoying Riley
+ * Copyright: 3rd Wave Media
+ * Twitter: @3rdwave_themes
+ * License: Creative Commons Attribution 3.0 License
+ * Website: http://themes.3rdwavemedia.com/
+ * With personal modifications from Jade Do
+*/
+
+body {
+    font-family: 'Garamond', sans-serif;
+    color: #545E6C;
+    background: #fffbe6;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+
+a{
+    color: #2d7788;
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #1a454f;
+}
+
+a:focus{
+    text-decoration: none;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.wrapper{
+    background: #f2dca6;
+    max-width: 1200px;
+    margin: 30px auto;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    -o-box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+}
+
+.sidebar-wrapper{
+    color: #ffffff;
+    background: #e4ba4e;
+    position: absolute;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    min-height: 800px;
+}
+
+.sidebar-wrapper a{
+    color: #ffffff;
+}
+
+.sidebar-wrapper a:hover{
+    text-decoration: underline;
+}
+
+.main-wrapper{
+
+}
