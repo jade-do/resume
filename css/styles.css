@@ -148,10 +148,23 @@ p{
     font-weight: 700;
 }
 
+.main-wrapper .education-desc {
+    position: relative;
+}
+
+.main-wrapper .meta {
+    position: relative;
+}
 .main-wrapper .time {
     position: absolute;
     right: 0;
     top: 0;
-    color: 	#A9A9A9;
-    font-weight: 600;
+    color: rgba(133,101,20, 0.7);
+
+}
+
+.main-wrapper .company {
+    color: rgba(133,101,20, 0.7);
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
