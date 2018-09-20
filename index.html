@@ -8,7 +8,12 @@
         
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/styles.css">
-    </head>
+        <!--Bootstrap CSS-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">    
+</head>
     <body>
         <nav>
             <ul>
@@ -31,10 +36,10 @@
                 <div class="contact-container container-block">
                     <h3 class="container-block-title">Contact</h3>
                     <ul class="contact-list">
-                        <li class ="email"><a href="mailto:ctd45@miami.edu">ctd45@miami.edu</a></li>
-                        <li class="phone"><a href="tel:+1 786 775 8446">(+1) 786 775 8446</a></li>
-                        <li class="website"><a href="#">My Website</a></li>
-                        <li class="github"><a href="https://github.com/jade-do">github.com/jade-do</a></li>
+                        <li class ="email"><i class="fa fa-lg svg-inline--fa fa-envelope"></i><a href="mailto:ctd45@miami.edu">  ctd45@miami.edu</a></li>
+                        <li class="phone"><i class="fa fa-lg svg-inline--fa fa-phone"></i><a href="tel:+1 786 775 8446">  (+1) 786 775 8446</a></li>
+                        <li class="website"><i class="fa fa-lg svg-inline--fa fa-globe"></i><a href="#">  My Website</a></li>
+                        <li class="github"><span class="fa fa-lg svg-inline--fa fa-github"></span><a href="https://github.com/jade-do">  github.com/jade-do</a></li>
                     </ul>
                 </div> <!--contact-container-->
                 <div class="languages-container container-block">
@@ -145,7 +150,7 @@
                         </div>
                         <div class="item">
                             <h3 class="skill-title">C</h3>
-                                <progress value="60" max="100"></progress>
+                            <progress value="60" max="100"></progress>
                         </div>
                         <div class="item">
                             <h3 class="skill-title">UNIX/LINUX</h3>
@@ -220,7 +225,12 @@
                 </section>
             </div> <!--main-wrapper-->
         </div> <!--wrapper-->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
+
     <footer>
         <!-- Include a Javascript of the mini dartboard game that you had-->
     </footer>

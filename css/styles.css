@@ -168,3 +168,43 @@ p{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.main-wrapper .coursework-section .item{
+    margin-bottom: 15px;
+}
+
+.main-wrapper .fa{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.main-wrapper .contact-list .a {
+    display: inline-block;
+    margin-left: 10px;
+}
+@media (max-width: 450px){
+    .sidebar-wrapper{
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    .main-wrapper{
+        display: block;
+        position: relative;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .main-wrapper .time{
+        position: relative;
+    }
+
+    progres{
+        display: block;
+        position: relative;
+    }
+}
