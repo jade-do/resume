@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">    
 </head>
     <body>
-        <nav>
+        <!--<nav>
             <ul>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#experiences">Experiences</a></li>
@@ -25,7 +25,7 @@
                 <li><a href="#coursework">Coursework</a></li>
                 <li><a href="#activities">Activities</a></li>
             </ul>
-        </nav>
+        </nav> -->
         <div class="wrapper">
             <div class="sidebar-wrapper">
                 <div class="profile-container container-block">
@@ -34,16 +34,16 @@
                     <h3 class="tagline">Aspring Software Engineer</h3>
                 </div> <!--profile-container-->
                 <div class="contact-container container-block">
-                    <h3 class="container-block-title">Contact</h3>
+                    <h2 class="container-block-title">Contact</h2>
                     <ul class="contact-list">
-                        <li class ="email"><i class="fa fa-lg svg-inline--fa fa-envelope"></i><a href="mailto:ctd45@miami.edu">  ctd45@miami.edu</a></li>
-                        <li class="phone"><i class="fa fa-lg svg-inline--fa fa-phone"></i><a href="tel:+1 786 775 8446">  (+1) 786 775 8446</a></li>
-                        <li class="website"><i class="fa fa-lg svg-inline--fa fa-globe"></i><a href="#">  My Website</a></li>
-                        <li class="github"><span class="fa fa-lg svg-inline--fa fa-github"></span><a href="https://github.com/jade-do">  github.com/jade-do</a></li>
+                        <li class ="email"><i class="fa fa-lg svg-inline--fa fa-paper-plane"></i><a href="mailto:ctd45@miami.edu">ctd45@miami.edu</a></li>
+                        <li class="phone"><i class="fa fa-lg svg-inline--fa fa-phone"></i><a href="tel:+1 786 775 8446">(+1) 786 775 8446</a></li>
+                        <li class="website"><i class="fa fa-lg svg-inline--fa fa-globe"></i><a href="#">My Website</a></li>
+                        <li class="github"><span class="fa fa-lg svg-inline--fa fa-github"></span><a href="https://github.com/jade-do">github.com/jade-do</a></li>
                     </ul>
                 </div> <!--contact-container-->
                 <div class="languages-container container-block">
-                    <h3 class="container-block-title">Languages</h3>
+                    <h2 class="container-block-title">Languages</h2>
                     <ul class="languages-list">
                         <li>Vietnames <span class="lang-proficiency">(Native)</span></li>
                         <li>Japanese <span class="lang-proficiency">(Intermediate)</span></li>
@@ -51,7 +51,7 @@
                     </ul>
                 </div> <!--languages-container-->
                 <div class="interests-container container-block">
-                    <h3 class="container-block-title">Interests</h3>
+                    <h2 class="container-block-title">Interests</h2>
                     <ul class="interests-list">
                         <li>Cycling</li>
                         <li>Meditation</li>
@@ -62,7 +62,7 @@
             </div> <!--sidebar-wrapper-->
             <div class="main-wrapper">
                 <section class="education-section section" id="#education">
-                    <h2 class="section-title">Education</h2>
+                    <h2 class="section-title"><i class="fa fa-lg fa-graduation-cap"></i>Education</h2>
                         <h4 class="degree">B.Sc. in Mathematcis and Computer Science</h4>
                         <div class="education-desc">
                                 <div class="university">
@@ -78,7 +78,7 @@
                 </section>
 
                 <section class="experiences-section section" id="#experiences">
-                    <h2 class="section-title">Experiences</h2>
+                    <h2 class="section-title"><i class="fa fa-lg fa-briefcase"></i>Experiences</h2>
                     <div class="item">
                         <div class="meta">
                             <div class="upper-row">
@@ -139,10 +139,10 @@
                 </section>
 
                 <section class="projects-section section" id="#projects">
-                    <h2 class="section-title">Projects</h2>
+                    <h2 class="section-title"><i class="fa fa-lg fa-rocket"></i>Projects</h2>
                 </section>
                 <section class="skills-section section" id="#skills">
-                    <h2 class="section-title">Skills and Proficiency</h2>
+                    <h2 class="section-title"><i class="fa fa-lg fa-trophy"></i>Skills and Proficiency</h2>
                     <div class="skillset">
                         <div class="item">
                             <h3 class="skill-title">Java</h3>
@@ -174,11 +174,13 @@
                         </div>
                     </div>
                 </section>
+
+                <!-- Make a Toggle Element for this -->
                 <section class="coursework-section section" id="#courses">
-                    <h2 class="section-title">Coursework</h2>
-                    <div class="item" id="coursework-computerscience">
+                    <h2 class="section-title"><i class="fa fa-lg fa-university"></i>Coursework</h2>
+                    <!--<div class="item" id="coursework-computerscience">
                         <h3 class="coursework-title">Computer Science</h3>
-                        <ul>
+                        <ul class="coursework-list">
                             <li>Data Structure and Algorithm Analysis</li>
                             <li>Computer Organization and Architecture</li>
                             <li>System Programming</li>
@@ -188,29 +190,59 @@
                     </div>
                     <div class="item" id="coursework-mathematics">
                         <h3 class="coursework-title">Mathematics</h3>
-                        <ul>
+                        <ul class="coursework-list">
                             <li>Introduction to Probability and Statistics</li>
                             <li>Introduction to Linear Algebra</li>
                             <li>Multivariable Calculus</li>
                         </ul>
+                    </div>-->
+
+                    <p>
+                        <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#coursework-computerscience" aria-expanded="false" aria-controls="coursework-computerscience">Computer Science</a>
+                        <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#coursework-mathematics" aria-expanded="false" aria-controls="coursework-mathematics">Mathematics</a>
+                        <button class="btn btn-warning" type="button" data-toggle="collapse" data-target=".coursework-list" aria-expanded="false" aria-controls="coursework-computerscience coursework-mathematics">Both</button>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse coursework-list" id="coursework-computerscience">
+                                <div class="card card-body">
+                                    <ul>
+                                        <li><i class="fa fa-star-half"></i>Data Structure and Algorithm Analysis</li>
+                                        <li><i class="fa fa-star-half"></i>Computer Organization and Architecture</li>
+                                        <li><i class="fa fa-star-half"></i>System Programming</li>
+                                        <li><i class="fa fa-star-half"></i>Android Programming</li>
+                                        <li><i class="fa fa-star-half"></i>Problem Solving in Bioinformatics</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="collapse coursework-list" id="coursework-mathematics">
+                                <div class="card card-body">
+                                    <ul>
+                                        <li><i class="fa fa-star-half"></i>Introduction to Probability and Statistics</li>
+                                        <li><i class="fa fa-star-half"></i>Introduction to Linear Algebra</li>
+                                        <li><i class="fa fa-star-half"></i>Multivariable Calculus</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </section>
 
-                <!-- Make a Toggle Element for this -->
                 <section class="teaching-assistantship-section section" id="#teaching-assistantship">
-                    <h2 class="section-title">Teaching Assistantship</h2>
+                    <h2 class="section-title"><i class="fa fa-lg fa-star-half-empty"></i>Teaching Assistantship</h2>
                     <div class="item">
-                        <p class="courses-code">
-                            <button href="#csc120">CSC 120</button>
-                        </p>
-                        <div id="#csc120">
-                            Computer Programming I Laboratory - 20 students
+                        <h5 class="courses-code">CSC 120</h5>
+                        <div class="details">
+                            <p>Computer Programming I Laboratory - 20 students</p>
                         </div>
                     </div>
                 </section>
 
                 <section class="activities-section section" id="#activities">
-                    <h2 class="section-title">Activities</h2>
+                    <h2 class="section-title"><i class="fa fa-lg fa-leaf"></i>Activities</h2>
                     <div class="item">
                         <h3 class="activity-title">UM Alternative Breaks</h3>
                         <div class="meta">

@@ -64,6 +64,15 @@ p{
     min-height: 800px;
 }
 
+.sidebar-wrapper .fa{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .sidebar-wrapper .profile-container{
     background: #FFDAB9;
     background: #F5DEB3;
@@ -95,7 +104,7 @@ p{
 }
 
 .sidebar-wrapper .container-block {
-    padding: 30px;
+    padding: 10px;
 }
 
 .sidebar-wrapper .lang-proficiency {
@@ -175,16 +184,27 @@ p{
 
 .main-wrapper .fa{
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
     text-align: center;
     vertical-align: middle;
 }
 
+.main-wrapper li .fa {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
 .main-wrapper .contact-list .a {
     display: inline-block;
     margin-left: 10px;
+}
+
+.main-wrapper button{
+    margin-right: 5px;
+    color: #FFFFFF;
 }
 @media (max-width: 450px){
     .sidebar-wrapper{
