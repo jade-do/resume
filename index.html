@@ -63,7 +63,7 @@
             <div class="main-wrapper">
                 <section class="education-section section" id="#education">
                     <h2 class="section-title"><i class="fa fa-lg fa-graduation-cap"></i>Education</h2>
-                        <h4 class="degree">B.Sc. in Mathematcis and Computer Science</h4>
+                        <h4 class="degree">B.Sc. in Mathematics and Computer Science</h4>
                         <div class="education-desc">
                                 <div class="university">
                                     University of Miami
@@ -76,7 +76,7 @@
                                 </div>
                             </div> <!--upper-row-->
                 </section>
-
+                <hr/>
                 <section class="experiences-section section" id="#experiences">
                     <h2 class="section-title"><i class="fa fa-lg fa-briefcase"></i>Experiences</h2>
                     <div class="item">
@@ -137,44 +137,126 @@
                         </div> <!--details-->
                     </div> <!--item-->    
                 </section>
+                <hr/>
 
-                <section class="projects-section section" id="#projects">
-                    <h2 class="section-title"><i class="fa fa-lg fa-rocket"></i>Projects</h2>
+                <section class="projects-and-skills-section section" id="#projects-and-skills">
+                    <h2 class="section-title"><i class="fa fa-lg fa-rocket"></i>Projects and Skills</h2>
+                    <ul class="nav nav-tabs nav-justified nav-fill" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="java-tab" data-toggle="tab" href="#java" role="tab" aria-controls="java" aria-selected="true">Java</a>
+                        </li>
+                        <li class="nav-item nav-fill">
+                            <a class="nav-link" id="c-tab" data-toggle="tab" href="#c" role="tab" aria-controls="c" aria-selected="false">C</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="unix-linux-tab" data-toggle="tab" href="#unix-linux" role="tab" aria-controls="unix-linux" aria-selected="false">UNIX/LINUX</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="perl-tab" data-toggle="tab" href="#perl" role="tab" aria-controls="perl" aria-selected="true">PERL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="python-tab" data-toggle="tab" href="#python" role="tab" aria-controls="python" aria-selected="false">Python</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link" id="html-css-sass-less-tab" data-toggle="tab" href="#html-css-sass-less" role="tab" aria-controls="html-css-sass-less" aria-selected="false">HTML/CSS/Sass/Less</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="java" role="tabpanel" aria-labelledby="java-tab">
+                            <h4>Proficiency</h4>
+                            <div class = "progress"> 
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="c" role="tabpanel" aria-labelledby="c-tab">
+                            <h4 >Proficiency</h4>
+                            <div class = "progress"> 
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="unix-linux" role="tabpanel" aria-labelledby="unix-linux-tab">
+                            <h4>Proficiency</h4>
+                            <!--<progress value="60" max="100"></progress>-->
+                            <div class = "progress"> 
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="perl" role="tabpanel" aria-labelledby="perl-tab">
+                            <h4>Proficiency</h4>
+                            <!--<progress value="30" max="100"></progress>-->
+                            <div class = "progress"> 
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="python" role="tabpanel" aria-labelledby="python-tab">                            
+                            <h4>Proficiency</h4>
+                            <!--<progress value="30" max="100"></progress>-->
+                            <div class = "progress"> 
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div></div>
+                        <div class="tab-pane fade" id="html-css-sass-less" role="tabpanel" aria-labelledby="html-css-sass-less-tab">
+                            <h4>Proficiency</h4>
+                            <!--<progress value="90" max="100"></progress>-->
+                            <div class = "progress"> 
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        <div>
+                    </div>
                 </section>
+                <hr/>
+                <!--<section class="projects-section section" id="#projects">
+                    <h2 class="section-title"><i class="fa fa-lg fa-rocket"></i>Projects</h2>
+                </section>            
+                <hr/>
                 <section class="skills-section section" id="#skills">
                     <h2 class="section-title"><i class="fa fa-lg fa-trophy"></i>Skills and Proficiency</h2>
                     <div class="skillset">
                         <div class="item">
-                            <h3 class="skill-title">Java</h3>
-                                <progress value="90" max="100"></progress>
+                            <h4 class="skill-title">Java</h4>
+                                <div class = "progress"> 
+                                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
                         </div>
                         <div class="item">
-                            <h3 class="skill-title">C</h3>
-                            <progress value="60" max="100"></progress>
+                            <h4 class="skill-title">C</h4>
+                            <div class = "progress"> 
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
                         <div class="item">
-                            <h3 class="skill-title">UNIX/LINUX</h3>
-                            <progress value="60" max="100"></progress>
+                            <h4 class="skill-title">UNIX/LINUX</h4>
+                            <div class = "progress"> 
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
                         <div class="item">
-                            <h3 class="skill-title">PERL</h3>
-                            <progress value="10" max="100"></progress>
+                            <h4 class="skill-title">PERL</h4>
+                            <div class = "progress"> 
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
                         <div class="item">
-                            <h3 class="skill-title">Python</h3>
-                            <progress value="30" max="100"></progress>
+                            <h4 class="skill-title">Python</h4>
+                            <div class = "progress"> 
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
                         <div class="item">
-                            <h3 class="skill-title">MySQL</h3>
-                            <progress value="60" max="100"></progress>
+                            <h4 class="skill-title">MySQL</h4>
+                            <div class = "progress"> 
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
                         <div class="item">
-                            <h3 class="skill-title">HTML/CSS/Sass/Less</h3>
-                            <progress value="90" max="100"></progress>
+                            <h4 class="skill-title">HTML/CSS/Sass/Less</h4>
+                            <div class = "progress"> 
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
                     </div>
                 </section>
-
+                
+                <hr/>-->
                 <!-- Make a Toggle Element for this -->
                 <section class="coursework-section section" id="#courses">
                     <h2 class="section-title"><i class="fa fa-lg fa-university"></i>Coursework</h2>
@@ -230,7 +312,7 @@
                         </div>
                     </div>
                 </section>
-
+                <hr/>
                 <section class="teaching-assistantship-section section" id="#teaching-assistantship">
                     <h2 class="section-title"><i class="fa fa-lg fa-star-half-empty"></i>Teaching Assistantship</h2>
                     <div class="item">
@@ -240,11 +322,11 @@
                         </div>
                     </div>
                 </section>
-
+                <hr/>
                 <section class="activities-section section" id="#activities">
                     <h2 class="section-title"><i class="fa fa-lg fa-leaf"></i>Activities</h2>
                     <div class="item">
-                        <h3 class="activity-title">UM Alternative Breaks</h3>
+                        <h4 class="activity-title">UM Alternative Breaks</h4>
                         <div class="meta">
                             <div class="title">
                                 Hillsborough House of Hope
