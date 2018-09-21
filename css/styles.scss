@@ -1,42 +1,41 @@
 // Color variable
-@background-light: #fffbe6;
-@background-pale: #ebcb7a;
-@background-dark: #e4ba4e;
+$background-light: #fffbe6;
+$background-pale: #ebcb7a;
+$background-dark: #e4ba4e;
 
-@link-active-color: #1a454f;
-@link-color: #545E6C;
+$link-active-color: #1a454f;
+$link-color: #545E6C;
 
-@font-color-dark: #CD853F;
-@font-color-pale: rgba(133,101,20, 0.7);
-@font-color-light: rgba(255, 255, 255, 0.8);
+$font-color-dark: #CD853F;
+$font-color-pale: rgba(133,101,20, 0.7);
+$font-color-light: rgba(255, 255, 255, 0.8);
 
 // Font variable
-@the-font-weight: 700;
+$the-font-weight: 700;
 
-.title-text(){
+@mixin title-text(){
     text-transform: uppercase;
-    font-weight: @the-font-weight;
+    font-weight: $the-font-weight;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-
 body {
     font-family: 'Garamond', sans-serif;
-    color: @link-active-color;
-    background: @background-light;
+    color: $link-active-color;
+    background: $background-light;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-weight: @the-font-weight;
+    font-weight: $the-font-weight;
 }
 
 a{
     color: #2d7788;
-    color: @link-color;
+    color: $link-color;
     text-decoration: none;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition:all 0.4s ease-in-out;
@@ -46,7 +45,7 @@ a{
 
 a:hover{
     text-decoration: none;
-    color: @link-active-color;
+    color:$link-active-color;
 }
 
 a:focus{
@@ -73,7 +72,7 @@ p{
 
 .sidebar-wrapper{
     color: #ffffff;
-    background: @background-pale;
+    background: $background-pale;
     position: absolute;
     right: 0;
     width: 300px;
@@ -92,12 +91,13 @@ p{
 }
 
 .sidebar-wrapper .profile-container{
-    background: @background-dark;
+    background: $background-dark;
     text-align: center;
 }
 
 .sidebar-wrapper .name{
-    .title-text();
+    
+    @include title-text();
     font-size: 30px;
 }
 
@@ -105,7 +105,7 @@ p{
     font-variant: small-caps;
     font-size: 19px;
     margin-top: 10px;
-    color: @font-color-light;
+    color: $font-color-light;
 }
 
 
@@ -122,11 +122,11 @@ p{
 }
 
 .sidebar-wrapper .lang-proficiency {
-    color: @font-color-light;
+    color: $font-color-light;
 }
 
 .sidebar-wrapper .container-block-title {
-    .title-text();
+    @include title-text();
     font-size: 16px;
 }
 
@@ -137,8 +137,8 @@ p{
 }
 
 .main-wrapper .section-title{
-    .title-text();
-    color: @font-color-dark;
+    @include title-text();
+    color: $font-color-dark;
     font-size: 20px;
     position:relative;
 }
@@ -183,11 +183,11 @@ p{
         font-size: 16px;
         margin-top: 0;
         margin-bottom: 0;
-        font-weight: @the-font-weight;
+        font-weight: $the-font-weight;
     }
 
     .company {
-        color: @font-color-pale;
+        color: $font-color-pale;
         margin-top: 5px;
         margin-bottom: 5px;
     }
@@ -201,7 +201,7 @@ p{
     position: absolute;
     right: 0;
     top: 0;
-    color: @font-color-pale;
+    color: $font-color-pale;
 
 }
 

@@ -1,42 +1,29 @@
-// Color variable
-@background-light: #fffbe6;
-@background-pale: #ebcb7a;
-@background-dark: #e4ba4e;
-
-@link-active-color: #1a454f;
-@link-color: #545E6C;
-
-@font-color-dark: #CD853F;
-@font-color-pale: rgba(133,101,20, 0.7);
-@font-color-light: rgba(255, 255, 255, 0.8);
-
-// Font variable
-@the-font-weight: 700;
-
-.title-text(){
-    text-transform: uppercase;
-    font-weight: @the-font-weight;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
+/*! 
+ * Template Name: Orbit - Bootstrap 4 Resume/CV Template for Developers
+ * Version: 2.0
+ * Author: Xiaoying Riley
+ * Copyright: 3rd Wave Media
+ * Twitter: @3rdwave_themes
+ * License: Creative Commons Attribution 3.0 License
+ * Website: http://themes.3rdwavemedia.com/
+ * With personal modifications from Jade Do
+*/
 
 body {
     font-family: 'Garamond', sans-serif;
-    color: @link-active-color;
-    background: @background-light;
+    color: #545E6C;
+    background: #fffbe6;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-weight: @the-font-weight;
+    font-weight: 700;
 }
 
 a{
     color: #2d7788;
-    color: @link-color;
     text-decoration: none;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition:all 0.4s ease-in-out;
@@ -46,7 +33,7 @@ a{
 
 a:hover{
     text-decoration: none;
-    color: @link-active-color;
+    color: #1a454f;
 }
 
 a:focus{
@@ -73,7 +60,7 @@ p{
 
 .sidebar-wrapper{
     color: #ffffff;
-    background: @background-pale;
+    background: #ebcb7a;
     position: absolute;
     right: 0;
     width: 300px;
@@ -92,20 +79,22 @@ p{
 }
 
 .sidebar-wrapper .profile-container{
-    background: @background-dark;
+    background: #e4ba4e;
     text-align: center;
 }
 
 .sidebar-wrapper .name{
-    .title-text();
     font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
 }
 
 .sidebar-wrapper .tagline{
     font-variant: small-caps;
     font-size: 19px;
     margin-top: 10px;
-    color: @font-color-light;
+    color: rgba(255, 255, 255, 0.8)
 }
 
 
@@ -122,12 +111,15 @@ p{
 }
 
 .sidebar-wrapper .lang-proficiency {
-    color: @font-color-light;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .sidebar-wrapper .container-block-title {
-    .title-text();
+    text-transform: uppercase;
     font-size: 16px;
+    font-weight: 700px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .main-wrapper{
@@ -137,10 +129,13 @@ p{
 }
 
 .main-wrapper .section-title{
-    .title-text();
-    color: @font-color-dark;
+    color: #CD853F;
+    text-transform: uppercase;
     font-size: 20px;
+    font-weight: 700;
     position:relative;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .main-wrapper .section {
@@ -148,8 +143,56 @@ p{
     margin-top: 30px;
 }
 
+.main-wrapper .experiences-section .item{
+    margin-bottom: 20px;
+}
+
+.main-wrapper .upper-row {
+    position: relative;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+
+.main-wrapper .job-title{
+    color: #3F4650;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.main-wrapper .education-desc {
+    position: relative;
+}
+
+.main-wrapper .meta {
+    position: relative;
+}
+.main-wrapper .time {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: rgba(133,101,20, 0.7);
+
+}
+
+.main-wrapper .company {
+    color: rgba(133,101,20, 0.7);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.main-wrapper .tab-pane {
+    margin-top: 15px;
+}
+
 .main-wrapper h4{
     font-size: 18px;
+}
+
+.main-wrapper .coursework-section .item{
+    margin-bottom: 15px;
 }
 
 .main-wrapper .fa{
@@ -161,67 +204,12 @@ p{
     vertical-align: middle;
 }
 
-.main-wrapper .education-desc {
-    position: relative;
+.main-wrapper li .fa {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
 }
-
-.main-wrapper .experiences-section .item{
-    margin-bottom: 20px;
-
-    .meta {
-        position: relative;
-    }
-
-    .upper-row {
-        position: relative;
-        margin-bottom: 2px;
-        overflow: hidden;
-    }
-
-    .job-title{
-        color: #3F4650;
-        font-size: 16px;
-        margin-top: 0;
-        margin-bottom: 0;
-        font-weight: @the-font-weight;
-    }
-
-    .company {
-        color: @font-color-pale;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-}
-
-.main-wrapper .meta{
-    position: relative;
-}
-
-.main-wrapper .time {
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: @font-color-pale;
-
-}
-
-.main-wrapper .tab-pane {
-    margin-top: 15px;
-}
-
-
-.main-wrapper .coursework-section {
-    .item{
-        margin-bottom: 15px;
-    }
-    li .fa {
-        width: 20px;
-        height: 20px;
-        margin-right: 5px;
-        vertical-align: middle;
-    }
-}
-
 .main-wrapper .contact-list .a {
     display: inline-block;
     margin-left: 10px;
@@ -234,11 +222,11 @@ p{
 
 .main-wrapper .skills-section{
     margin-bottom: 12px;
+}
 
-    .progress{
-        height: 8px;
-        margin-bottom: 15px;
-    }
+.main-wrapper .progress{
+    height: 8px;
+    margin-bottom: 15px;
 }
 
 @media (max-width: 450px){
@@ -258,7 +246,7 @@ p{
         position: relative;
     }
 
-    progress{
+    progres{
         display: block;
         position: relative;
     }

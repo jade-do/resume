@@ -1,253 +1,196 @@
-/*! 
- * Template Name: Orbit - Bootstrap 4 Resume/CV Template for Developers
- * Version: 2.0
- * Author: Xiaoying Riley
- * Copyright: 3rd Wave Media
- * Twitter: @3rdwave_themes
- * License: Creative Commons Attribution 3.0 License
- * Website: http://themes.3rdwavemedia.com/
- * With personal modifications from Jade Do
-*/
-
 body {
-    font-family: 'Garamond', sans-serif;
-    color: #545E6C;
-    background: #fffbe6;
-    font-size: 16px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+  font-family: 'Garamond', sans-serif;
+  color: #1a454f;
+  background: #fffbe6;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
-h1, h2, h3, h4, h5, h6{
-    font-weight: 700;
-}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; }
 
-a{
-    color: #2d7788;
-    text-decoration: none;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition:all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-}
+a {
+  color: #2d7788;
+  color: #545E6C;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out; }
 
-a:hover{
-    text-decoration: none;
-    color: #1a454f;
-}
+a:hover {
+  text-decoration: none;
+  color: #1a454f; }
 
-a:focus{
-    text-decoration: none;
-}
+a:focus {
+  text-decoration: none; }
 
-p{
-    line-height: 1.5;
-}
+p {
+  line-height: 1.5; }
 
-.navbar{
-    position: fixed; 
-}
+.navbar {
+  position: fixed; }
 
-.wrapper{
-    position: relative;
-    background: #f2dca6;
-    max-width: 1200px;
-    margin: 30px auto;
-    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
-    -o-box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
-}
+.wrapper {
+  position: relative;
+  background: #f2dca6;
+  max-width: 1200px;
+  margin: 30px auto;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); }
 
-.sidebar-wrapper{
-    color: #ffffff;
-    background: #ebcb7a;
-    position: absolute;
-    right: 0;
-    width: 300px;
-    height: 100%;
-    min-height: 800px;
+.sidebar-wrapper {
+  color: #ffffff;
+  background: #ebcb7a;
+  position: absolute;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  min-height: 800px; }
 
-}
+.sidebar-wrapper .fa {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  text-align: center;
+  vertical-align: middle; }
 
-.sidebar-wrapper .fa{
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    text-align: center;
-    vertical-align: middle;
-}
+.sidebar-wrapper .profile-container {
+  background: #e4ba4e;
+  text-align: center; }
 
-.sidebar-wrapper .profile-container{
-    background: #e4ba4e;
-    text-align: center;
-}
+.sidebar-wrapper .name {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px; }
 
-.sidebar-wrapper .name{
-    font-size: 30px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-top: 10px;
-}
+.sidebar-wrapper .tagline {
+  font-variant: small-caps;
+  font-size: 19px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.8); }
 
-.sidebar-wrapper .tagline{
-    font-variant: small-caps;
-    font-size: 19px;
-    margin-top: 10px;
-    color: rgba(255, 255, 255, 0.8)
-}
+.sidebar-wrapper a {
+  color: #ffffff; }
 
-
-.sidebar-wrapper a{
-    color: #ffffff;
-}
-
-.sidebar-wrapper a:hover{
-    text-decoration: underline;
-}
+.sidebar-wrapper a:hover {
+  text-decoration: underline; }
 
 .sidebar-wrapper .container-block {
-    padding: 10px;
-}
+  padding: 10px; }
 
 .sidebar-wrapper .lang-proficiency {
-    color: rgba(255, 255, 255, 0.8);
-}
+  color: rgba(255, 255, 255, 0.8); }
 
 .sidebar-wrapper .container-block-title {
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 700px;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px; }
 
-.main-wrapper{
-    background: #ffffff;
-    padding: 60px;
-    padding-right: 330px;
-}
+.main-wrapper {
+  background: #ffffff;
+  padding: 60px;
+  padding-right: 330px; }
 
-.main-wrapper .section-title{
-    color: #CD853F;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 700;
-    position:relative;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
+.main-wrapper .section-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #CD853F;
+  font-size: 20px;
+  position: relative; }
 
 .main-wrapper .section {
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
+  margin-bottom: 30px;
+  margin-top: 30px; }
 
-.main-wrapper .experiences-section .item{
-    margin-bottom: 20px;
-}
+.main-wrapper h4 {
+  font-size: 18px; }
 
-.main-wrapper .upper-row {
+.main-wrapper .fa {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  text-align: center;
+  vertical-align: middle; }
+
+.main-wrapper .education-desc {
+  position: relative; }
+
+.main-wrapper .experiences-section .item {
+  margin-bottom: 20px; }
+  .main-wrapper .experiences-section .item .meta {
+    position: relative; }
+  .main-wrapper .experiences-section .item .upper-row {
     position: relative;
     margin-bottom: 2px;
-    overflow: hidden;
-}
-
-.main-wrapper .job-title{
+    overflow: hidden; }
+  .main-wrapper .experiences-section .item .job-title {
     color: #3F4650;
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: 700;
-}
-
-.main-wrapper .education-desc {
-    position: relative;
-}
+    font-weight: 700; }
+  .main-wrapper .experiences-section .item .company {
+    color: rgba(133, 101, 20, 0.7);
+    margin-top: 5px;
+    margin-bottom: 5px; }
 
 .main-wrapper .meta {
-    position: relative;
-}
+  position: relative; }
+
 .main-wrapper .time {
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: rgba(133,101,20, 0.7);
-
-}
-
-.main-wrapper .company {
-    color: rgba(133,101,20, 0.7);
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: rgba(133, 101, 20, 0.7); }
 
 .main-wrapper .tab-pane {
-    margin-top: 15px;
-}
+  margin-top: 15px; }
 
-.main-wrapper h4{
-    font-size: 18px;
-}
+.main-wrapper .coursework-section .item {
+  margin-bottom: 15px; }
 
-.main-wrapper .coursework-section .item{
-    margin-bottom: 15px;
-}
+.main-wrapper .coursework-section li .fa {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle; }
 
-.main-wrapper .fa{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.main-wrapper li .fa {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-    vertical-align: middle;
-}
 .main-wrapper .contact-list .a {
-    display: inline-block;
-    margin-left: 10px;
-}
+  display: inline-block;
+  margin-left: 10px; }
 
-.main-wrapper button{
-    margin-right: 5px;
-    color: #FFFFFF;
-}
+.main-wrapper button {
+  margin-right: 5px;
+  color: #FFFFFF; }
 
-.main-wrapper .skills-section{
-    margin-bottom: 12px;
-}
-
-.main-wrapper .progress{
+.main-wrapper .skills-section {
+  margin-bottom: 12px; }
+  .main-wrapper .skills-section .progress {
     height: 8px;
-    margin-bottom: 15px;
-}
+    margin-bottom: 15px; }
 
-@media (max-width: 450px){
-    .sidebar-wrapper{
-        display: block;
-        position: relative;
-        width: 100%;
-    }
-    .main-wrapper{
-        display: block;
-        position: relative;
-        width: 100%;
-        padding: 10px;
-    }
-
-    .main-wrapper .time{
-        position: relative;
-    }
-
-    progres{
-        display: block;
-        position: relative;
-    }
-}
+@media (max-width: 450px) {
+  .sidebar-wrapper {
+    display: block;
+    position: relative;
+    width: 100%; }
+  .main-wrapper {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 10px; }
+  .main-wrapper .time {
+    position: relative; }
+  progress {
+    display: block;
+    position: relative; } }
