@@ -4,11 +4,16 @@ body {
   background: #fffbe6;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 700; }
-
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
 a {
   color: #2d7788;
   color: #545E6C;
@@ -16,21 +21,21 @@ a {
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out; }
-
+  -ms-transition: all 0.4s ease-in-out;
+}
 a:hover {
   text-decoration: none;
-  color: #1a454f; }
-
+  color: #1a454f;
+}
 a:focus {
-  text-decoration: none; }
-
+  text-decoration: none;
+}
 p {
-  line-height: 1.5; }
-
+  line-height: 1.5;
+}
 .navbar {
-  position: fixed; }
-
+  position: fixed;
+}
 .wrapper {
   position: relative;
   background: #f2dca6;
@@ -38,8 +43,8 @@ p {
   margin: 30px auto;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); }
-
+  -o-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
 .sidebar-wrapper {
   color: #ffffff;
   background: #ebcb7a;
@@ -47,57 +52,57 @@ p {
   right: 0;
   width: 300px;
   height: 100%;
-  min-height: 800px; }
-
+  min-height: 800px;
+}
 .sidebar-wrapper .fa {
   display: inline-block;
   width: 20px;
   height: 20px;
   margin-right: 10px;
   text-align: center;
-  vertical-align: middle; }
-
+  vertical-align: middle;
+}
 .sidebar-wrapper .profile-container {
   background: #e4ba4e;
-  text-align: center; }
-
+  text-align: center;
+}
 .sidebar-wrapper .name {
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 30px; }
-
+  font-size: 30px;
+}
 .sidebar-wrapper .tagline {
   font-variant: small-caps;
   font-size: 19px;
   margin-top: 10px;
-  color: rgba(255, 255, 255, 0.8); }
-
+  color: rgba(255, 255, 255, 0.8);
+}
 .sidebar-wrapper a {
-  color: #ffffff; }
-
+  color: #ffffff;
+}
 .sidebar-wrapper a:hover {
-  text-decoration: underline; }
-
+  text-decoration: underline;
+}
 .sidebar-wrapper .container-block {
-  padding: 10px; }
-
+  padding: 10px;
+}
 .sidebar-wrapper .lang-proficiency {
-  color: rgba(255, 255, 255, 0.8); }
-
+  color: rgba(255, 255, 255, 0.8);
+}
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 16px; }
-
+  font-size: 16px;
+}
 .main-wrapper {
   background: #ffffff;
   padding: 60px;
-  padding-right: 330px; }
-
+  padding-right: 330px;
+}
 .main-wrapper .section-title {
   text-transform: uppercase;
   font-weight: 700;
@@ -105,92 +110,109 @@ p {
   margin-bottom: 10px;
   color: #CD853F;
   font-size: 20px;
-  position: relative; }
-
+  position: relative;
+}
 .main-wrapper .section {
   margin-bottom: 30px;
-  margin-top: 30px; }
-
+  margin-top: 30px;
+}
 .main-wrapper h4 {
-  font-size: 18px; }
-
+  font-size: 18px;
+}
 .main-wrapper .fa {
   display: inline-block;
   width: 30px;
   height: 30px;
   margin-right: 10px;
   text-align: center;
-  vertical-align: middle; }
-
+  vertical-align: middle;
+}
 .main-wrapper .education-desc {
-  position: relative; }
-
+  position: relative;
+}
 .main-wrapper .experiences-section .item {
-  margin-bottom: 20px; }
-  .main-wrapper .experiences-section .item .meta {
-    position: relative; }
-  .main-wrapper .experiences-section .item .upper-row {
-    position: relative;
-    margin-bottom: 2px;
-    overflow: hidden; }
-  .main-wrapper .experiences-section .item .job-title {
-    color: #3F4650;
-    font-size: 16px;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 700; }
-  .main-wrapper .experiences-section .item .company {
-    color: rgba(133, 101, 20, 0.7);
-    margin-top: 5px;
-    margin-bottom: 5px; }
-
+  margin-bottom: 20px;
+}
+.main-wrapper .experiences-section .item .meta {
+  position: relative;
+}
+.main-wrapper .experiences-section .item .upper-row {
+  position: relative;
+  margin-bottom: 2px;
+  overflow: hidden;
+}
+.main-wrapper .experiences-section .item .job-title {
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.main-wrapper .experiences-section .item .company {
+  color: rgba(133, 101, 20, 0.7);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 .main-wrapper .meta {
-  position: relative; }
-
+  position: relative;
+}
 .main-wrapper .time {
   position: absolute;
   right: 0;
   top: 0;
-  color: rgba(133, 101, 20, 0.7); }
-
+  color: rgba(133, 101, 20, 0.7);
+}
 .main-wrapper .tab-pane {
-  margin-top: 15px; }
-
+  margin-top: 15px;
+}
 .main-wrapper .coursework-section .item {
-  margin-bottom: 15px; }
-
+  margin-bottom: 15px;
+}
 .main-wrapper .coursework-section li .fa {
   width: 20px;
   height: 20px;
   margin-right: 5px;
-  vertical-align: middle; }
-
+  vertical-align: middle;
+}
 .main-wrapper .contact-list .a {
   display: inline-block;
-  margin-left: 10px; }
-
+  margin-left: 10px;
+}
 .main-wrapper button {
   margin-right: 5px;
-  color: #FFFFFF; }
-
-.main-wrapper .skills-section {
-  margin-bottom: 12px; }
-  .main-wrapper .skills-section .progress {
-    height: 8px;
-    margin-bottom: 15px; }
-
+  color: #FFFFFF;
+}
+.main-wrapper .projects-and-skills-section {
+  margin-bottom: 12px;
+}
+.main-wrapper .projects-and-skills-section .progress {
+  height: 8px;
+  margin-bottom: 15px;
+}
+.main-wrapper .projects-and-skills-section .fa {
+  margin: 0px;
+}
+.main-wrapper .projects-and-skills-section .projects .link-item {
+  display: inline-block;
+  margin-right: 15px;
+}
 @media (max-width: 450px) {
   .sidebar-wrapper {
     display: block;
     position: relative;
-    width: 100%; }
+    width: 100%;
+  }
   .main-wrapper {
     display: block;
     position: relative;
     width: 100%;
-    padding: 10px; }
+    padding: 10px;
+  }
   .main-wrapper .time {
-    position: relative; }
+    position: relative;
+  }
   progress {
     display: block;
-    position: relative; } }
+    position: relative;
+  }
+}
