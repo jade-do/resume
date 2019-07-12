@@ -5,7 +5,7 @@
     .\Deployment\Scripts\deploy.ps1 -resourceGroup 0116-07-POC-01
     ```
 
-**Parameter Values**
+**Parameter Values**:  
     Parameter | Value
     --------- | --------
     `name` | **Isabell**
