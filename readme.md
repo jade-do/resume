@@ -1,11 +1,11 @@
-1. Run **PowerShell Core** (pwsh.exe) and **change directory to the project directory** of your assistant/skill.
-2. Run the following command:
+
+**Command**:
 
     ```shell
     .\Deployment\Scripts\deploy.ps1 -resourceGroup 0116-07-POC-01
     ```
 
-
+**Parameter Values**
     Parameter | Value
     --------- | --------
     `name` | **Isabell**
